@@ -4,7 +4,7 @@ import arc.util.Log
 import com.google.gson.*
 
 object Vars {
-    lateinit var config: Config
+    private lateinit var config: Config
 
     var discordId: Long = 0L
 
